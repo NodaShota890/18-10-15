@@ -1,0 +1,14 @@
+<div class="media">
+  <div class="media-left">
+    <img alt="<%= @book.title %>" class="media-object" src="/images/books/<%= @book.id %>.jpg" style="width: 320px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><%= @book.title %></h4>
+    <dl>
+      <dt>著者：</dt>
+      <dd><%= @book.author.name %></dd>
+      <dt>価格：</dt>
+      <dd><%= @book.price %></dd>
+    </dl>
+  </div>
+</div>

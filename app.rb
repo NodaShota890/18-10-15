@@ -6,10 +6,10 @@ require_relative 'models/init'
 
 get '/' do
   @books = Book::LIST
-  slim :index
+  erb :index
 end
 
 get '/books/:id' do
   @book = Book::LIST.find { |book| book.id.to_s == params[:id] }
-  slim :show
+  erb :show
 end
