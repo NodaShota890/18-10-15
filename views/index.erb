@@ -2,9 +2,9 @@
   <thead>
     <tr>
       <th>ID</th>
-      <th>タイトル</th>
-      <th>著者</th>
-      <th>価格</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Price</th>
       <th></th>
     </tr>
   </thead>
@@ -16,7 +16,7 @@
         <td><%= book.author.name %></td>
         <td><%= book.price %></td>
         <td>
-          <a class="btn btn-default btn-xs" href="/books/<%= book.id %>" role="button">詳細</a>
+          <a class="btn btn-default btn-xs" href="/books/<%= book.id %>" role="button">Detail</a>
         </td>
       </tr>
     <% end %>

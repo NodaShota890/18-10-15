@@ -7,8 +7,8 @@ class Author
   end
 
   LIST = [
-    new(id: 1, name: '高橋征義'),
-    new(id: 2, name: 'まつもとゆきひろ'),
+    new(id: 1, name: 'Pat Shaughnessy'),
+    new(id: 2, name: 'Yukihiro Matsumoto'),
     new(id: 3, name: 'Peter J.Jones'),
   ]
 end
