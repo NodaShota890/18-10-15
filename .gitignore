@@ -125,6 +125,9 @@ Package Control.ca-bundle
 Package Control.system-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
 bh_unicode_properties.cache
 
 # Sublime-github package stores a github token in this file
@@ -134,8 +137,10 @@ GitHub.sublime-settings
 
 ### Vim ###
 # swap
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
 # session
 Session.vim
 # temporary
@@ -193,7 +198,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml 
+# .idea/misc.xml
 # *.ipr
 
 
@@ -238,9 +243,10 @@ Temporary Items
 
 
 ### Windows ###
-# Windows image file caches
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
@@ -256,3 +262,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# End of https://www.gitignore.io/api/ruby,emacs,sublimetext,vim,jetbrains,linux,osx,windows
