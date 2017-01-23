@@ -1,4 +1,3 @@
-# coding: utf-8
 class Book
   attr_accessor :id, :title, :author_id, :price
 
